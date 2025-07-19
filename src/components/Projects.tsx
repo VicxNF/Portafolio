@@ -10,6 +10,14 @@ const projectsData = [
     liveUrl: "https://recipefinder-eight-ecru.vercel.app/",
     repoUrl: "https://github.com/VicxNF/RecipeFinder",
   },
+  {
+    title: "Linkin Park Analyzer",
+    description: "Página web para analizar mas a profundidad las letras de la banda mundialmente conocida Linkin Park. Permite seleccionar partes de la letra de distintas canciones del grupo y analizarlas profundamente a través de Inteligencia Artificial.",
+    image: "/linkinpark.jpg", // Cambia esta ruta si tienes una imagen real, o usa un placeholder
+    tags: ["React", "Flask", "CSS", "API", "Inteligencia Artificial"],
+    liveUrl: "https://linkin-park-analyzer.vercel.app/",
+    repoUrl: "https://github.com/VicxNF/linkin-park-analyzer",
+  },
 ];
 
 export const Projects = () => {
